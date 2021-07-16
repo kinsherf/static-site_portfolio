@@ -68,7 +68,6 @@ body{
 
 h1{
     margin-top: 6px;
-    font-size: 2.6em;
     color: #000000;
     font-family: "bodoni moda", "serif";
 }
@@ -127,6 +126,16 @@ h2{
 td {
     text-align: center;
 }
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
 
 a:link{text-decoration: none; color: #ffffff; font-weight: bold; margin: 10px; background: #75b6fc; padding: 6px; border-radius: 6px; box-shadow:#919191 3px 3px 3px;}
 a:visited{text-decoration: none; color: #ffffff; font-weight: bold; margin: 10px; background: #75b6fc; padding: 6px; border-radius: 6px; box-shadow:#919191 3px 3px 3px;}
