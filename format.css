@@ -104,6 +104,26 @@ h2{
     padding-right: 25%;
 }
 
+.projects{
+    max-width: 30%;
+    padding: 10px;
+}
+
+.projects:hover{
+    background-color: #75b6fc;
+}
+
+#projectcontent{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #ffffff;
+}
+
 li {
     list-style: none;
   }
